@@ -1,7 +1,7 @@
 # 设置基本的镜像，后续命令都以这个镜像为基础 
-#FROM new_os
+FROM new_os
 # 作者信息 
-#MAINTAINER  wsn1 
+MAINTAINER  wsn1 
 # RUN命令会在上面指定的镜像里执行任何命令 
 #RUN cp /etc/apt/sources.list /etc/apt/sources.list.bak
 #COPY sources.list /etc/apt/
