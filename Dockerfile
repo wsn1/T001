@@ -1,5 +1,6 @@
 # 设置基本的镜像，后续命令都以这个镜像为基础 
-FROM wns1/new_os
+FROM hello-world:latest
+#FROM wns1/new_os
 # 作者信息 
 MAINTAINER  wsn1 
 # RUN命令会在上面指定的镜像里执行任何命令 
