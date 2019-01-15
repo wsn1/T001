@@ -1,6 +1,6 @@
 # 设置基本的镜像，后续命令都以这个镜像为基础 
 
-FROM ubuntu
+FROM new_os
 
 # 作者信息 
 
