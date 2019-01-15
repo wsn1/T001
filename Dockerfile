@@ -1,5 +1,5 @@
 # 设置基本的镜像，后续命令都以这个镜像为基础 
-FROM ubuntu
+FROM ubuntu:16.04
 # 作者信息 
 MAINTAINER  wsn1 
 # RUN命令会在上面指定的镜像里执行任何命令 
@@ -16,3 +16,4 @@ MAINTAINER  wsn1 
 #EXPOSE  80 
 #CMD /bin/bash
 RUN echo "run dockfile"
+CMD echo $HOME
